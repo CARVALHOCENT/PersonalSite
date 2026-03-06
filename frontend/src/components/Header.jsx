@@ -16,7 +16,9 @@ const Header = () => {
                     onClick={() => window.open(portfolioData.contact.cvUrl, '_blank')}
                 >
                     <Download className="w-4 h-4 mr-2" />
-                    Download CV
+                    {/* Responsive Text */}
+                    <span className="hidden sm:inline">Download CV</span>
+                    <span className="sm:hidden">CV</span>
                 </Button>
             </div>
         </header>
