@@ -10,11 +10,38 @@ export const portfolioData = {
         skills: []
     },
 
-    projects: [
+projects: [
         {
             id: 1,
+            title: "Forest Fire Detection (PIC)",
+            description: "Integrated monitoring system using a YOLO-based AI model for real-time smoke identification and Meshtastic (LoRa) for long-range, off-grid communication. Features a custom unified dashboard for telemetry and alerts.",
+            image: "https://images.unsplash.com/photo-1582131503261-fca1d1c058d3?w=800",
+            links: [
+                { label: "Website", url: "https://web.tecnico.ulisboa.pt/~ist1109562/equipa2/" }
+            ]
+        },
+        {
+            id: 2,
+            title: "Distributed Resource Sharing (RC)",
+            description: "A concurrent distributed system in C implementing peer-to-peer and client-server architectures with TCP/UDP socket programming for reliable data transfer and resource discovery.",
+            image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800",
+            links: [
+                { label: "GitHub", url: "https://github.com/CARVALHOCENT/Computer-Networks-and-the-Internet" }
+            ]
+        },
+        {
+            id: 3,
+            title: "Image Watermark Processor",
+            description: "Privacy-focused React application for batch image watermarking and PDF generation. Performs 100% client-side processing via Canvas API and jsPDF to ensure data security.",
+            image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800",
+            links: [
+                { label: "GitHub", url: "https://github.com/CARVALHOCENT/WatermarkApp" }
+            ]
+        },
+        {
+            id: 4,
             title: "Robotic Arm",
-            description: "A 5 Degree of Freedom Robot able to be controlled to several positions using servo motors",
+            description: "A 5-DOF robotic arm control system using Arduino and C++, featuring a Serial interface for real-time joint manipulation and kinematic safety constraints.",
             image: "/images/RobotArm.webp",
             links: [
                 { label: "Report", url: "https://github.com/CARVALHOCENT/RobotArm/blob/main/Projeto_Fisica_e_API.pdf" },
@@ -22,18 +49,18 @@ export const portfolioData = {
             ]
         },
         {
-            id: 2,
+            id: 5,
             title: "CS2-Discord Bot",
-            description: "A custom Discord Bot for a gaming community.Featuring: CS2 Server browser using A2S to query live servers status, ping and player count also a Faceit API integration that fetches players stats and infos. ",
+            description: "Custom Discord Bot using discord.py and Faceit API. Features real-time server status via A2S protocol, Elo tracking, and match statistics retrieval.",
             image: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=800",
             links: [
                 { label: "Github", url: "https://github.com/CARVALHOCENT/Discord-Bot-CS2" }
             ]
         },
         {
-            id: 3,
+            id: 6,
             title: "KeyLogger",
-            description: "A Python-based keylogger optimized for Arch Linux (Hyprland/Wayland). Focused on low-level input hooking and data normalization for educational security research.",
+            description: "A Python-based keylogger optimized for Arch Linux. Focused on low-level input hooking and data normalization for educational security research.",
             image: "/images/Keylogger.webp",
             links: [
                 { label: "Github", url: "https://github.com/CARVALHOCENT/Keylogger" }
