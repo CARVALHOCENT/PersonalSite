@@ -15,7 +15,7 @@ projects: [
             id: 1,
             title: "Forest Fire Detection (PIC)",
             description: "Integrated monitoring system using a YOLO-based AI model for real-time smoke identification and Meshtastic (LoRa) for long-range, off-grid communication. Features a custom unified dashboard for telemetry and alerts.",
-            image: "https://images.unsplash.com/photo-1582131503261-fca1d1c058d3?w=800",
+            image: "https://images.unsplash.com/photo-1600181958051-bd8544360312?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             links: [
                 { label: "Website", url: "https://web.tecnico.ulisboa.pt/~ist1109562/equipa2/" }
             ]
